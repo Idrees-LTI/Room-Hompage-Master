@@ -1,0 +1,85 @@
+.main {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    background-image: url('/resources/css/images/mobile-image-hero-2.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 550px;
+    width: 100%;
+}
+
+.dark-image, .light-image {
+    width: 550px;
+    padding-top: 50px;
+}
+a:hover {
+    color: rgb(228, 226, 226);
+   text-decoration: underline;
+}
+.shop {
+    text-align: left;
+}
+.shop:hover {
+    color: hsl(0, 0%, 75%);
+    text-decoration: none;
+}
+.slider {
+    background-color: black;
+    width: 146px;
+    height: 80px;
+    margin: 153px 0px 0px -40px;
+}
+.next {
+    margin-left: -45px;
+    width: 92px;
+    display: inline-block;
+}
+a .next-icon {
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.prev {
+    width: 94px;
+    display: inline-block;
+    
+}
+a .prev-icon {
+    margin-left: -35px;
+    padding-top: 30px;
+}
+
+
+@media screen and (min-width: 1440px) {
+    body {
+        width: 1440px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main {
+        background-image: url('/resources/css/images/desktop-image-hero-2.jpg');
+        width: 60%;
+    }
+    .second-part {
+        width: 40%;
+        padding-top: 50px;
+    }
+    .third-part {
+        width: 30%;
+        padding-top: 0px;
+        margin-top: -90px;
+    }
+    .dark-image, .light-image {
+        width: 400px;
+    }
+    .fourth-part {
+        width: 40%;
+        font-size: smaller;
+        padding-top: 10px;
+    }
+    .fifth-part {
+        width: 30%;
+        margin-top: -90px;
+    }
+}

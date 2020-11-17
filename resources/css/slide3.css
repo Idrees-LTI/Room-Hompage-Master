@@ -1,0 +1,67 @@
+.main {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    background-image: url('/resources/css/images/mobile-image-hero-3.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 550px;
+    width: 100%;
+}
+
+.dark-image, .light-image {
+    width: 550px;
+    padding-top: 50px;
+}
+.shop:hover {
+    color: hsl(0, 0%, 75%);
+    text-decoration: none;
+}
+.shop {
+    text-align: left;
+}
+
+
+
+@media screen and (min-width: 1440px) {
+    body {
+        width: 1440px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main {
+        background-image: url('/resources/css/images/desktop-image-hero-3.jpg');
+        width: 60%;
+    }
+    a:hover {
+    color: rgb(228, 226, 226);
+   text-decoration: underline;
+}
+    .second-part {
+        width: 40%;
+        padding-top: 50px;
+    }
+    .third-part {
+        width: 30%;
+        padding-top: 0px;
+        margin-top: -97px;
+    }
+    .slider {
+        margin: 153px 0px 0px -40px;
+    }
+    .dark-image, .light-image {
+        width: 400px;
+    }
+    .third-part {
+        margin-top: -90px;
+    }
+    .fourth-part {
+        width: 40%;
+        font-size: smaller;
+        margin-top: 10px;
+    }
+    .fifth-part {
+        width: 30%;
+        margin-top: -90px;
+    }
+}

@@ -1,0 +1,231 @@
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+.main {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    background-image: url('/resources/css/images/mobile-image-hero-1.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 550px;
+    width: 100%;
+}
+body {
+    font-family: cursive;
+}
+nav {
+    height: 100px;
+    width: 100%;
+    top: 0;
+    overflow: hidden;
+}
+.logo {
+    display: block;
+    margin: -57px 230px;
+    position: absolute;
+}
+.close {
+    font-size: 30px;
+    line-height: 80px;
+    margin-left: 10px;
+    cursor: pointer;
+    top: 0;
+    margin-top: 30px;
+    display:none;
+}
+nav ul {
+    display: none;
+    list-style: none;
+    background-color: white;
+    height: 100px;
+    margin-top: -60px;
+    
+}
+nav ul li {
+    font-size: 20px;
+    line-height: 80px;
+    display: inline-block;
+    padding-left: 50px;
+}
+nav ul li a {
+    color: hsl(0, 0%, 27%);
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(228, 226, 226);
+   text-decoration: underline;
+}
+.slider {
+    display: none;
+}
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    line-height: 80px;
+    margin-left: 25px;
+    padding-top: -20px;
+    cursor: pointer;
+}
+#check {
+    border: none;
+    outline: none;
+    background: none;
+}
+.second-part, .fourth-part {
+    text-align: center;
+    padding: 30px 40px 40px 40px;
+}
+.fourth-part p {
+    color: hsl(0, 0%, 63%);
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 12px;
+    text-align: left;
+}
+.fourth-part h1 {
+    text-align: left;
+    padding-left: 20px;
+}
+.second-part p {
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 30px;
+    font-size: 12px;
+    color: hsl(0, 0%, 63%);
+}
+.second-part h1 {
+    font-size: 35px;
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 30px;
+}
+.shop {
+    font-weight: bold;
+    text-align: left;
+    margin-left: -20px;
+    letter-spacing: 1.5rem;
+    color: black;
+    text-decoration: none;
+}
+.shop:hover {
+    color: hsl(0, 0%, 75%);
+    text-decoration: none;
+}
+.dark-image, .light-image {
+    width: 550px;
+    padding-top: 50px;
+}
+#side-bar {
+    width: 50px;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+}
+
+/*Responsiveness*/
+
+@media screen and (min-width: 1440px) {
+    body {
+        width: 1440px;
+        
+    }
+    .main {
+        background-image: url('/resources/css/images/desktop-image-hero-1.jpg');
+        width: 60%;
+    }
+.second-part {
+    width: 40%;
+    padding-top: 50px;
+}
+.second-part p {
+    font-size: 14px;
+}
+.second-part h1 {
+    font-size: 40px;
+}
+.shop {
+    margin-left: -60px;
+}
+.slider {
+    background-color: black;
+    width: 146px;
+    height: 80px;
+    margin: 154px 0px 0px -40px;
+    display: block;
+}
+.next {
+    height: 80px;
+    width: 75px;
+    display: inline-block;
+    margin-left: -10px;
+}
+a .next-icon {
+    padding-left: 10px;
+    padding-top: 30px;
+}
+
+.slider .next:hover {
+    background-color: hsl(0, 0%, 27%);
+    cursor: pointer;
+}
+.slider .prev:hover {
+    background-color: hsl(0, 0%, 27%);
+    cursor: pointer;
+}
+a .prev-icon {
+    margin-left: -15px;
+    padding-top: 30px;
+}
+.prev {
+    height: 80px;
+    width: 76px;
+    display: inline-block;
+}
+slider a {
+    width: 100px;
+    box-sizing: content-box;
+    height: fit-content;
+}
+
+.third-part {
+    width: 30%;
+    padding-top: 0px;
+    margin-top: -90px;
+}
+.dark-image, .light-image {
+    width: 400px;
+}
+.fourth-part {
+    width: 40%;
+    font-size: smaller;
+    padding-top: 10px;
+}
+.fifth-part {
+    width: 30%;
+    margin-top: -90px;
+}
+    #check {
+        display: none;
+    }
+    nav ul {
+        margin-left: 100px;
+        display: block;
+        background: none;
+    }
+    nav ul li  {
+        display: inline-block;
+        padding: 20px;
+        margin-top: 50px;
+    }
+    nav ul li a {
+        color: white;
+    }
+    .logo {
+        text-align: left;
+        margin-left: 30px;
+        padding-top: 98px;
+    }
+}
