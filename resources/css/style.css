@@ -7,7 +7,7 @@ body {
     padding: 0;
     margin: 0;
     text-decoration: none;
-    background-image: url('./resources/css/images/mobile-image-hero-1.jpg');
+    background-image: url('resources/css/images/mobile-image-hero-1.jpg');
     background-repeat: no-repeat;
     background-size: contain;
     height: 550px;
@@ -128,7 +128,7 @@ a:hover {
         margin-right: auto;
     }
     .main {
-        background-image: url('./resources/css/images/desktop-image-hero-1.jpg');
+        background-image: url('resources/css/images/desktop-image-hero-1.jpg');
         width: 60%;
     }
 .second-part {
