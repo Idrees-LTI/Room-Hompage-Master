@@ -129,10 +129,10 @@ a:hover {
     }
     .main {
         background-image: url('resources/css/images/desktop-image-hero-1.jpg');
-        width: 60%;
+        width: 50%;
     }
 .second-part {
-    width: 40%;
+    width: 30%;
     padding-top: 50px;
 }
 .second-part p {
